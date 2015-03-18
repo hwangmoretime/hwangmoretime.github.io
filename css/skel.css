@@ -17,7 +17,7 @@
 		margin-right: auto;
 
 		/* width: (containers) */
-		width: 1200px;
+		width: 960px;
 	}
 
 	/* Modifiers */
@@ -30,7 +30,7 @@
 				max-width: 1500px;
 
 				/* min-width: (containers) */
-				min-width: 1200px;
+				min-width: 960px;
 			}
 
 		/* 75% */
