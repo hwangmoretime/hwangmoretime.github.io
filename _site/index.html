@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 <!DOCTYPE HTML>
 <!--
-	Aerial by HTML5 UP
+	TXT by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -12,101 +11,165 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
 		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-			<link rel="stylesheet" href="css/style-noscript.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
 		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+	<body class="homepage">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>David Hwang</h1>
-						<p>Carnegie Mellon University &nbsp;&bull;&nbsp; Data Viz &nbsp;&bull;&nbsp; Drinking From the Kool-Aid</p>
-						<nav>
-							<ul>
+		<!-- Header -->
+			<header id="header">
+				<div class="logo container">
+					<div>
+						<h3>David Hwang</h3>
+						<br>
+						<p>Carnegie Mellon University &nbsp;&bull;&nbsp; Data Visualization</p>
+					</div>
+				</div>
+			</header>
 
-								<li><a href="https://www.linkedin.com/in/dvdhwng" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://twitter.com/HwangMoreTime" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://github.com/hwangmoretime" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="mailto:davidhwang@cmu.edu" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+		<!-- Nav -->
+            <nav id="nav" class="skel-layers-fixed">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#portfolio">Portfolio</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+            </nav>
+		
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; <a href="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike</a>. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
-				
+		<!-- Main -->
+			<div id="main-wrapper">
+				<div id="main" class="container">
+					<div class="row 200%">
+						<div class="12u">
+							
+							<!-- Highlight -->
+								<section class="box highlight">
+									<ul class="special">
+										<style type="text/css"> img.face { width: 166px; height: 166px; }</style>
+										<li><img class="face" src="/images/circles/1.png"></li>
+										<li><img class="face" src="/images/circles/2.png"></li>
+										<li><img class="face" src="/images/circles/4.png"></li>
+									</ul>
+									<header>
+										<h3>About Me</h3>
+									</header>
+									<p>
+										Hello! My name is David and I'm currently a Masters candidate at CMU's human-computer interaction department. <br>
+										I enjoy visualizing data and building software, especially to help people think. <br>
+										I like books, team sports, bakeries, and taquerias.
+									</p>
+								</section>
+
+						</div>
+					</div>
+					<div class="row 200%">
+						<div class="12u">
+
+							<!-- Features -->
+								<section class="box features">
+									<h2 class="major"><span><a name="portfolio" href="#portfolio">Portfolio</a></span></h2>
+									<div>
+										<div class="row">
+											<div class="3u">
+												
+												<!-- Feature -->
+													<section class="box feature">
+														<a href="/work/in_one_chart" class="image featured"><img src="https://gist.github.com/hwangmoretime/c2c7128c5226f9199f87/raw/70c4f171c403b97986f7ea69437595ef799a9344/thumbnail.png" alt="In One Chart" /></a>
+														<h3><a href="">"In one chart" In One Chart</a></h3>
+														<p>
+															A visualization of Twitter images claiming to show things "in one chart". 
+														</p>
+													</section>
+										
+											</div>
+											<div class="3u">
+												
+												<!-- Feature -->
+													<section class="box feature">
+														<a href="/work/androgynous_names" class="image featured"><img src="http://bl.ocks.org/hwangmoretime/raw/da8e72b5e680c827d6dd/thumbnail.png" alt="Androgynous Name" /></a>
+														<h3><a href="/work/androgynous_names">Androgynous Names</a></h3>
+														<p>
+															A visualization of US census data showing names that have been steadily androgynous.
+														</p>
+													</section>
+										
+											</div>
+											<div class="3u">
+												
+												<!-- Feature -->
+													<section class="box feature">
+														<a href="/work/point_tracking" class="image featured"><img src="/work/point_tracking/thumbnail.png" alt="Point Tracking Methods" /></a>
+														<h3><a href="/work/point_tracking">Methods for Point Tracking</a></h3>
+														<p>
+															With multiple, non-linear lines on a single graph, you can't use traditional methods in D3 for point tracking. Here, I present three methods to solve this issue. 
+														</p>
+													</section>
+										
+											</div>
+											<div class="3u">
+												
+												<!-- Feature -->
+													<section class="box feature">
+														<a href="https://chrome.google.com/webstore/detail/wikireveal-link-talk-comm/nlanliogjchihakmncmbhffimnnjjipp?hl=en-US" class="image featured"><img src="/work/wikireveal/thumbnail.png" alt="Wikireveal" /></a>
+														<h3><a href="https://chrome.google.com/webstore/detail/wikireveal-link-talk-comm/nlanliogjchihakmncmbhffimnnjjipp?hl=en-US">Wikireveal</a></h3>
+														<p>
+															Lightweight Chrome extension to link comments on disucssion pages to the version of the article when that comment was written. 
+														</p>
+													</section>
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<ul class="actions">
+													<li><a href="david_hwang_resume.pdf" class="button icon fa-file-pdf-o">&nbsp;&nbsp;Résumé</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</section>
+
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="container">
+                <div class="row 200%">
+                    <div class="12u">
+
+                        <!-- Contact -->
+                            <section>
+                                <h2 class="major"><span><a name="contact" href="#contact">Get in touch</a></span></h2>
+                                <ul class="contact">
+                                    <li><a href="https://www.linkedin.com/in/d3hwang" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                    <li><a href="https://twitter.com/HwangMoreTime" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                                    <li><a href="https://github.com/hwangmoretime" class="icon fa-github"><span class="label">Github</span></a></li>
+                                    <li><a href="mailto:davidhwang@cmu.edu" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+                                </ul>
+                            </section>
+                    
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                    <div id="copyright">
+                        <ul class="menu">
+                            <li>&copy; <a href="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Attribution-ShareAlike</a> David Hwang</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        </ul>
+                    </div>
+
+            </footer>
+
 	</body>
 </html>
-=======
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>David Hwang by hwangmoretime</title>
-  </head>
-
-  <body>
-    <div id="container">
-      <div class="inner">
-
-        <header>
-          <h1>David Hwang</h1>
-          <h2>narratives with or without data</h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/hwangmoretime" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-          <p>I'm at Carnegie Mellon University studying Human-Computer Interaction.</p>
-
-<p>I like data visualization. Currently drinking the kool-aid. Loves Maia.</p>
-        </section>
-
-        <footer>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-                  <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-59130445-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-      </div>
-    </div>
-  </body>
-</html>
->>>>>>> FETCH_HEAD
