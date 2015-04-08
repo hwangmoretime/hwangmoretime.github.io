@@ -1,6 +1,2 @@
-The design of this website originates from HTML5UP: http://html5up.net/. 
-The following folders and their files in the root directory are covered under the Creative Commons Attribution 3.0 Unported license: /css, /js, /fonts 
-http://creativecommons.org/licenses/by/3.0/
-
-The remaining directories and subdirectories and their respective files are covered under the Attribution-ShareAlike 4.0 License:
+Attribution-ShareAlike 4.0 License:
 http://creativecommons.org/licenses/by-sa/4.0/legalcode
