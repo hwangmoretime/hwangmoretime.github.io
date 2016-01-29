@@ -1,0 +1,48 @@
+title: 'Site Title'
+description: ''
+url: ''
+permalink: 'pretty'
+email: ''
+google_analytics: ''
+avatar: ''
+social_media:
+    dribbble:
+        text: ''
+        url: ''
+    facebook:
+        text: ''
+        url: ''
+    flickr:
+        text: ''
+        url: ''
+    github:
+        text: ''
+        url: ''
+    instagram:
+        text: ''
+        url: ''
+    linkedin:
+        text: ''
+        url: ''
+    pinterest:
+        text: ''
+        url: ''
+    twitter:
+        text: ''
+        url: ''
+    stackoverflow:
+        text: ''
+        url: ''
+    youtube:
+        text: ''
+        url: ''
+
+highlighter: pygments
+sass:
+    style: :compressed
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README
+    - README.md

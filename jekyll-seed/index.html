@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="/css/index.css" media="screen" type="text/css">
+
+<header id="header">
+    <div class="logo container">
+        <div>
+            <h3>David Hwang</h3>
+            <br>
+            <p>
+                Carnegie Mellon University &nbsp;•&nbsp; Human Centered Engineering
+            </p>
+        </div>
+    </div>
+</header>
+
+<div id="main-wrapper">
+    <div id="main" class="container">
+    <div class="row 200%">
+        <div class="12u">
+            <section class="box highlight">
+                <ul class="special">
+                    <li><img class="face" src="/images/circles/1.png"></img.face></li>
+                    <li><img class="face" src="/images/circles/2.png"></img.face></li>
+                    <li><img class="face" src="/images/circles/4.png"></img.face></li>
+                </ul>
+                <header>
+                    <h3>About Me</h3>
+                </header>
+                <p>
+                    Hello! My name is David and I'm currently a Masters candidate at CMU's human-computer interaction department. <br>
+                    I enjoy visualizing data and building software, especially to help people think.
+                </p>
+            </section>
+        </div>
+    </div>
+
+    <div class="row 200%">
+        <div class="12u">
+            <section class="box features">
+                <h2 class="major"><span><a name="portfolio" href="#portfolio">Portfolio</a></span></h2>
+                <div class="row">
+                    {% for post in site.posts %}
+                        <div class="3u">
+                            <section class="box feature">
+                                <a href="{{ post.url }}" class="image featured">
+                                    <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
+                                </a>
+                                <a href="{{ post.url }}">
+                                    <h3>{{ post.title }}</h3>
+                                </a>
+                                <p>
+                                    {{ post.description }}
+                                </p>
+                            </section>
+                        </div>
+                    {% endfor %}  
+                </div>   
+            </section>
+        </div>
+    </div>
+    </div>
+</div>
