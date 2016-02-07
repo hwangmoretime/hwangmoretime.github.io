@@ -119,13 +119,13 @@
 	blockquote
 	{
 		border-left: solid 5px #E7EAE8;
-		padding: 1em 0 1em 1.5em;
+		padding: .25em 0 .25em 1.5em;
 		font-style: italic;
 	}
 	
-	p, ul, ol, dl, table
+	p, ul, ol, dl, table, iframe
 	{
-		margin-bottom: 3em;
+		margin-bottom: 1em;
 	}
 	
 	/* Section/Article */
@@ -158,6 +158,10 @@
 		}
 
 	/* Image */
+		img.face {
+			width: 166px;
+			height: 166px;
+		}
 
 		.image
 		{

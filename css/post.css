@@ -1,0 +1,13 @@
+iframe {
+	width: 960px;
+	height: 500px;
+	border: 1px solid #DEDEDE;
+}
+
+p.aside {
+  	font-size: 11px;
+}
+
+p.row :not(:first-child):not(.aside) {
+	padding-top: 0;
+}

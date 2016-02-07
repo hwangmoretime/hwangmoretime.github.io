@@ -3,9 +3,9 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
 
 /*
-	TXT by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	TXT by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
 */
 
 /*********************************************************************************/
@@ -119,13 +119,13 @@
 	blockquote
 	{
 		border-left: solid 5px #E7EAE8;
-		padding: 1em 0 1em 1.5em;
+		padding: .25em 0 .25em 1.5em;
 		font-style: italic;
 	}
 	
-	p, ul, ol, dl, table
+	p, ul, ol, dl, table, iframe
 	{
-		margin-bottom: 3em;
+		margin-bottom: 1em;
 	}
 	
 	/* Section/Article */
@@ -158,6 +158,10 @@
 		}
 
 	/* Image */
+		img.face {
+			width: 166px;
+			height: 166px;
+		}
 
 		.image
 		{

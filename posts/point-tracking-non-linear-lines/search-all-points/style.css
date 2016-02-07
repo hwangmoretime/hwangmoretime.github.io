@@ -1,0 +1,48 @@
+body {
+  width: 960px;
+  margin: auto;
+  position: relative;
+}
+
+svg {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis--y path {
+  display: none;
+}
+
+.androgs {
+  fill: none;
+  stroke: #aaa;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 1.5px;
+}
+
+.androg--hover {
+  stroke: #000;
+}
+
+.focus text {
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+#form {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+rect {
+  fill: none;
+  pointer-events: all;
+}
