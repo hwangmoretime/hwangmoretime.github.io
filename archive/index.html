@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="/css/index.css" media="screen" type="text/css">
+
+<header id="header">
+    <div class="logo container">
+        <h3>David Hwang</h3>
+    </div>
+</header>
+
+<div id="main-wrapper">
+    <div id="main" class="container">
+    <div class="row 200%">
+        <div class="12u">
+            <section class="box features">
+                <div class="row">
+                    {% for post in site.posts %}
+                        <div class="3u">
+                            <section class="box feature">
+                                <a href="{{ post.url }}" class="image featured">
+                                    <img src="{{ post.thumbnail }}" alt="{{ post.title }}" />
+                                </a>
+                                <a href="{{ post.url }}">
+                                    <h5>
+                                        {{ post.title }}
+                                        {% if post.category == "external-link" %}
+                                            <a class="fa fa-external-link" href="{{ post.url }}"></a>
+                                        {% endif %}
+                                    </h5>
+                                </a>
+                            </section>
+                        </div>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+    </div>
+    </div>
+</div>
