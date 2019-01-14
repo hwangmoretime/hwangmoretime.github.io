@@ -13,6 +13,7 @@ faviconfile = "https://gokmengorgen.net/img/laughing-man-favicon.png"
 latestpostcount = 5
 logofile = "https://gokmengorgen.net/img/laughing-man.png"
 highlightjs = true
+linkedin = "david-hwang"
 
 [[params.best_posts]]
 title = "Migrate to Hugo from Jekyll"
