@@ -14,6 +14,7 @@ latestpostcount = 5
 logofile = "https://gokmengorgen.net/img/laughing-man.png"
 highlightjs = true
 linkedin = "david-hwang"
+twitter = "hwangmoretime"
 
 [[params.best_posts]]
 title = "Migrate to Hugo from Jekyll"
