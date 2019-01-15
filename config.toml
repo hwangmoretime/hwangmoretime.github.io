@@ -1,20 +1,21 @@
 author = "David Hwang"
 baseurl = "/"
 canonifyurls = true
-copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+copyright = "Copyright © 2008–2019, David Hwang; all rights reserved."
 paginate = 3
 theme = "alageek"
 title = "David Hwang"
 
 [params]
-copyright = "© 2018 by Gökmen Görgen"
-copyrightUrl = "https://gokmengorgen.net"
+copyright = "© 2019 by David Hwang"
+copyrightUrl = "https://davidhwang.me"
 faviconfile = "https://gokmengorgen.net/img/laughing-man-favicon.png"
 latestpostcount = 5
 logofile = "https://gokmengorgen.net/img/laughing-man.png"
 highlightjs = true
 linkedin = "david-hwang"
 twitter = "hwangmoretime"
+github = "hwangmoretime"
 
 [[params.best_posts]]
 title = "Migrate to Hugo from Jekyll"
