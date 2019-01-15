@@ -9,7 +9,7 @@ title = "David Hwang"
 [params]
 copyright = "© 2019 by David Hwang"
 copyrightUrl = "https://davidhwang.me"
-faviconfile = "https://gokmengorgen.net/img/laughing-man-favicon.png"
+faviconfile = "/img/nine_dots.ico"
 latestpostcount = 5
 logofile = "https://gokmengorgen.net/img/laughing-man.png"
 highlightjs = true
