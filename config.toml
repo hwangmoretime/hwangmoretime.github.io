@@ -18,8 +18,8 @@ twitter = "hwangmoretime"
 github = "hwangmoretime"
 
 [[params.best_posts]]
-title = "Migrate to Hugo from Jekyll"
-url = "/blog/migrate-from-jekyll/"
+title = "Creating A New Theme"
+url = "/blog/creating-a-new-theme/"
 
 [[menu.primary]]
 identifier = "blog"
