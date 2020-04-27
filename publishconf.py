@@ -19,7 +19,7 @@ CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-STATIC_PATHS = ['images', 'extra/CNAME', '.git']
+STATIC_PATHS = ['images', 'extra/CNAME', '../.git']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 STATIC_EXCLUDES = [
     "__pycache__",
