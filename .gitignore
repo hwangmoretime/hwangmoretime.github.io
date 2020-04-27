@@ -1,11 +1,4 @@
-_site/
-
-images/circles/3.png
-
-images/circles/6.png
-
-images/circles/5.png
-
-images/circles/7.jpg
-
-images/circles/8.jpg
+*.pyc
+__pycache__/
+.DS_Store
+venv/
