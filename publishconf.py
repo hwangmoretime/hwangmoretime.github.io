@@ -19,17 +19,6 @@ CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-STATIC_PATHS = [
-    'images',
-    'extra/CNAME',
-]
-EXTRA_PATH_METADATA = {
-    'extra/CNAME': {'path': 'CNAME'},
-}
-STATIC_EXCLUDES = [
-    "__pycache__",
-]
-
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""

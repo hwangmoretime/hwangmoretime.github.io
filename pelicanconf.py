@@ -28,5 +28,16 @@ DEFAULT_DATE_FORMAT = '%d %B %Y'
 
 THEME = 'theme'
 
+STATIC_PATHS = [
+    'images',
+    'extra/CNAME',
+]
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+}
+STATIC_EXCLUDES = [
+    "__pycache__",
+]
+
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
