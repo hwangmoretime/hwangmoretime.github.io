@@ -436,10 +436,6 @@ label.margin-toggle:not(.sidenote-number) {
         width: 100%;
     }
 
-    label.sidenote-number, label.margin-toggle {
-        color: #6087dd;
-    }
-
     label.margin-toggle:not(.sidenote-number) {
         display: inline;
     }
